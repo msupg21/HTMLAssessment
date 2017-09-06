@@ -1,0 +1,65 @@
+h1{
+  color: green;
+  size:1.5em;
+}
+h2{
+  color: green;
+  size:1.5em;
+}
+h3{
+  color: green;
+  size:1.5em;
+}
+h4{
+  color: green;
+  size:1.5em;
+}
+h5{
+  color: green;
+  size:1.5em;
+}
+#scoreBoard{
+  border: solid 3px;
+}
+th{
+  color: red;
+  font-weight: 2px;
+}
+td{
+  text-align: center;
+}
+#teamRoster{
+  list-style-type: square;
+}
+ul li{
+  list-style-type: square;
+}
+#teamRoster > li:first-child{
+  background-image: url("broncos.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  image-orientation: center;
+}
+#teamRoster > li:nth-child(2){
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  image-orientation: center;
+}
+ul:last-child li{
+
+}
+li img{
+  visibility: hidden;
+}
+.hyperLink:hover{
+  background-color: grey;
+  text-decoration: none;
+}
+blockquote{
+  background-color: darkred;
+  color: yellow;
+}
+#checkbox-grid li{
+  list-style-type: none;
+}
